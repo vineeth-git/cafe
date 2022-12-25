@@ -1,0 +1,13 @@
+<h1>Menu List</h1>
+<table>
+  <th>
+    <td>Name</td>
+    <td>Price</td>
+  </th>
+<% @menu_list.each do |menu| %>
+    <tr>
+      <td><%= menu.name %></td>
+      <td><%= menu.price %></td>
+    </tr>
+  <% end %>
+</table>
